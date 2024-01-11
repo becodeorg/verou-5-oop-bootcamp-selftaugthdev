@@ -56,8 +56,8 @@ class Vacancy extends Content {
 
 $contents = [
     new Article("Today's Weather", "FREEZING cold."),
-    new Article("Local Sports", "The Ghent team wins again!", true), // Breaking news
-    new Ad("Sale", "Big discounts on electronics!"),
+    new Article("Local Sports", "The Ghent team wins again!", true), // This should be breaking news
+    new Ad("Sale", "Big discounts on all smartphones!"),
     new Vacancy("Software Developer", "Join our awesome software development team.")
 ];
 
